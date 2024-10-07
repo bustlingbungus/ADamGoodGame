@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Preset: conan-default",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--preset",
+                "conan-default"
+            ],
+            "problemMatcher": [],
+            "detail": "Generated task to run cmake with conan-default preset"
+        },
+        {
+            "label": "CMake Build: conan-release",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "--preset",
+                "conan-release"
+            ],
+            "problemMatcher": [],
+            "detail": "Generated task to build with conan-release preset"
+        },
+        {
+            "label": "Open game",
+            "type": "shell",
+            "command": "./ADamGoodGame.exe",
+            "options": {
+                "cwd": "${workspaceFolder}/build/Release"
+            },
+            "problemMatcher": [],
+            "detail": "launch the application"
+        },
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "CMake Preset: conan-default",
+                "CMake Build: conan-release",
+                "Open game"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
