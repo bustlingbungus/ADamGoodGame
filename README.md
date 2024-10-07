@@ -2,6 +2,10 @@ A Dam Good Game is a fast paced, arcade inspired action roguelike.
 Collect resources to block the river, and construct a base to survive as long as possible. 
 Kill enemies by throwing building materials at them. Try to beat your own high scores!
 
+Available for Windows only
+
+Includes music made by [wiredbeyondbelief](https://open.spotify.com/artist/54l3oZ8MPCzZ99zPJ0GJO6?si=2YwMR-DHSKWGcVoYwU-YqQ&nd=1&dlsi=d6eac570db34484f)!
+
 ## Build Instructions
 
 To build the game from source code, You need the SDL2, SDL2_Image, SDL2_ttf, and SDL2_mixer libraries installed
