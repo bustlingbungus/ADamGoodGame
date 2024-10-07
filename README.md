@@ -18,7 +18,7 @@ Then, run these commands (on VScode, using the included build tasks by pressing 
 cmake --preset conan-default
 cmake --build --preset conan-release
 cd build\Release
-final_pendulum.exe
+ADamGoodGame.exe
 ```
 
 
