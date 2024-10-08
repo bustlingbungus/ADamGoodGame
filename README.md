@@ -1,3 +1,4 @@
+# A Dam Good Game
 A Dam Good Game is a fast paced, arcade inspired action roguelike. 
 Collect resources to block the river, and construct a base to survive as long as possible. 
 Kill enemies by throwing building materials at them. Try to beat your own high scores!
